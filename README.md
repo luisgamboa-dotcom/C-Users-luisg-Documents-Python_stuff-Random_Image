@@ -6,6 +6,11 @@ can populate thumbnails and feed images before extraction. It samples links
 from the same website and filters out common UI images such as logos, icons,
 badges, sprites, and tiny placeholders.
 
+# This code has been created on Windows Subsystem (wsl)
+
+Im not responsible if the code doesnt work on windows`s cmd, I just did
+this for fun and to test Codex capacity.
+
 ## Setup
 
 Python 3.10+ is recommended. Install Python dependencies and the Playwright
