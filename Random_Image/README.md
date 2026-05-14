@@ -76,6 +76,8 @@ behind private APIs may still return few or no usable images.
 
 ## Use this commands to start the fun
 
+```bash
 source .venv/bin/activate
 export PLAYWRIGHT_BROWSERS_PATH="$PWD/.playwright-browsers"
 export LD_LIBRARY_PATH="$PWD/.playwright-libs/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH:-}"
+```
